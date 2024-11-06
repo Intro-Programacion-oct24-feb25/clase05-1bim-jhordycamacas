@@ -42,12 +42,16 @@ public class Ejemplo5 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\nLas notas ingresadas fueron:\n\t"
                     + "Nota 1: %.1f\n\t"
-                    + "Nota 2: %.1f\n\n" + "Secretario General", promedio,
+                    + "Nota 2: %.1f\n\n" + "Secretario General\n", promedio,
                     nota1,
                     nota2);
         }else{
             System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n\t"
+                    + "Nota 1: %.1f\n\t"
+                    + "Nota 2: %.1f\n\n" + "Secretario General\n", promedio,
+                    nota1,
+                    nota2);
         }
     }
     
