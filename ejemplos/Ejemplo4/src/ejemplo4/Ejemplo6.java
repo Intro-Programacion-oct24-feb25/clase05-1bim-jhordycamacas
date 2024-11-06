@@ -31,7 +31,7 @@ public class Ejemplo6 {
         // caracter de la cadena
         // Si el valor de ciudad es 
         // "Loja" se obtiene "L"
-
+        //el substring sirve para que el programa solo con ciertas iniciales sepa si esta correcto o no
         if ( inicial.equals("L") || inicial.equals("l")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
