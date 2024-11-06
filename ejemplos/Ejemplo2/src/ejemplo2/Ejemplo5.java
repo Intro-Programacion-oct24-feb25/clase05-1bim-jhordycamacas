@@ -17,7 +17,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo3 {
+public class Ejemplo5 {
 
     /**
      * @param args the command line arguments
@@ -40,7 +40,11 @@ public class Ejemplo3 {
         
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n\t"
+                    + "Nota 1: %.1f\n\t"
+                    + "Nota 2: %.1f\n\n" + "Secretario General", promedio,
+                    nota1,
+                    nota2);
         }else{
             System.out.printf("Estudiante reprobado con un "
                     + "promedio: %.2f\n", promedio);
