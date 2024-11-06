@@ -24,7 +24,7 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
-        if (!ciudad.equals("Loja")) {
+        if (!ciudad.equals("Loja")) {//para negar la igualdad se pone el !
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");

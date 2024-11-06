@@ -26,7 +26,7 @@ public class Ejemplo4 {
         String ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
-                ciudad.equals("Guayaquil")) {
+                ciudad.equals("Guayaquil")) {// el equals es exlcusivo para hacer una comparacion entre valores de tipo cadenas
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
